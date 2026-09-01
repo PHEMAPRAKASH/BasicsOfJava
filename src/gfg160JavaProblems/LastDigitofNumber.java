@@ -9,6 +9,9 @@ public class LastDigitofNumber {
 		System.out.println(Math.abs(r));
 		System.out.printf("%d", Math.abs(n % 10)); // is used to non-negative numbers.
 
+		System.out.println(Math.abs(r));
+		System.out.printf("%d", Math.abs(n % 10));
+
 	}
 
 }
