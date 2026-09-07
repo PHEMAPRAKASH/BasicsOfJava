@@ -8,14 +8,14 @@ public class DeleteAlternateCharacters {
 		Scanner sc = new Scanner(System.in);
 
 		DeleteAlternateCharacters obj = new DeleteAlternateCharacters();
-		System.out.println(obj.delAlternate("GEEKS"));
+		System.out.println(obj.delAlternate("GEEKSgggg"));
 	}
 
 	public static String delAlternate(String s) {
 		int n = s.length();
 		String str = "";
 		for (int i = 0; i <= s.length(); i++) {
-			if (n % 2 == 0) {
+			if (i % 2 == 0) {
 				str = str + s.charAt(i);
 			}
 		}
