@@ -9,6 +9,7 @@ public class DeleteAlternateCharacters {
 
 		DeleteAlternateCharacters obj = new DeleteAlternateCharacters();
 		System.out.println(obj.delAlternate("GEEKSgggg"));
+		sc.close();
 	}
 
 	public static String delAlternate(String s) {
@@ -20,5 +21,6 @@ public class DeleteAlternateCharacters {
 			}
 		}
 		return str;
+
 	}
 }
