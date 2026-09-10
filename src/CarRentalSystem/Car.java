@@ -107,5 +107,10 @@ class CarrentalSystem {
 	private List<Customer> customers;
 	private List<Rental> rental;
 	
-	
+	public void addcar(Car car) {
+		cars.add(car);
+	}
+	public void caddCustomers(Customer customer) {
+		customers.add(customer);
+	}
 }
