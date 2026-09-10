@@ -12,12 +12,10 @@ public class DeleteAlternateCharacters {
 		for (int i = 0; i <= a; i++) {
 			if (i % 2 == 0) {
 				str = str + s.charAt(i);
-				System.out.println(str);
 			}
-			
 		}
-		
-		
+		System.out.println(str);
+		sc.close();
 
 //		DeleteAlternateCharacters obj = new DeleteAlternateCharacters();
 //		System.out.println(obj.delAlternate("GEEKSgggg"));
