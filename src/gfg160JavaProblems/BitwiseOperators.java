@@ -17,6 +17,7 @@ public class BitwiseOperators {
 	        
 
 	        System.out.println(d + " " + e + " " + f + " " + g);
+	        sc.close();
 	    }
 
 	}

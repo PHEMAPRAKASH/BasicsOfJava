@@ -23,6 +23,7 @@ public class InputBooleanValue {
 
 		// Printing numeric representation
 		System.out.print(a ? 1 : 0);
+		sc.close();
 
 	}
 

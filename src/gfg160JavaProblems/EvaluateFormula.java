@@ -30,6 +30,7 @@ public class EvaluateFormula {
 		int c = sc.nextInt();
 		int d = sc.nextInt();
 		System.out.print((a + b) / c + d);
+		sc.close();
 
 	}
 
