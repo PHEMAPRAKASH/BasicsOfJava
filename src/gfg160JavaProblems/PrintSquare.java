@@ -17,6 +17,7 @@ public class PrintSquare {
 
 			}
 			System.out.println();
+			sc.close();
 		}
 
 	}

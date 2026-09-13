@@ -10,6 +10,7 @@ public class Returnab {
 		Returnab obj = new Returnab();
 		int ans = obj.argumentFunction(a, b);
 		System.out.println(ans);
+		sc.close();
 
 	}
 

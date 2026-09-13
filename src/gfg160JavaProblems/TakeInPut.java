@@ -33,6 +33,7 @@ public class TakeInPut {
 		System.out.println(s);
 		System.out.println(n);
 		System.out.println(ff);
+		sc.close();
 
 	}
 

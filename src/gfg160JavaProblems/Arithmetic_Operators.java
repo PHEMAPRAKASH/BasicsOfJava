@@ -46,6 +46,7 @@ public class Arithmetic_Operators {
 		int u = x % y;
 		System.out.println(p);
 		System.out.printf("%d %d %d %.3f %d %d", p, q, r, s, t, u);
+		sc.close();
 	}
 
 }
