@@ -1,6 +1,5 @@
 package gfg160JavaProblems;
 
-import java.lang.*;
 import java.util.*;
 
 public class ConcateIntegers {
