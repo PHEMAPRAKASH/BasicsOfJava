@@ -1,33 +1,35 @@
 package gfg160JavaProblems;
 
-public class Task {
+//Class representing a task to calculate the volume of a geometric shape
 
-	int l = 10;
-	int b = 20;
-	int h = 10;
+class Task {
+  int length, width, height;
 
-	
-	public  Task(int l, int b, int h) {
-		
-	}
-	public void set_length(int l) {
-		this.l = l;
-	}
+  //Method to set the length of the shape
+  public void set_length(int l) {
+      length = l;
+  }
+  
+  //Method to set the width of the shape
+  public void set_width(int w) {
+      width = w;
+  }
+  
+  //Method to set the height of the shape
+  public void set_height(int h) {
+      height = h;
+  }
+  
+  //Method to calculate and print the volume of the shape
+  public void volume() {
+      System.out.println(length * width * height);
+  }
 
-	public void set_breadth(int b) {
-		this.b = b;
-	}
-
-	public void set_height(int h) {
-		this.h = h;
-	}
-
-	public void Volume() {
-		System.out.println(l * b * h);
-	}
-
-//	public static void main(String[] args) {
-//     Task t1 = new Task(10, 20, 30);
-//     System.out.println(t1);
-//	}
+public static void main(String[]args) {
+	  Task t = new Task();
+	  t.set_height(10);
+	  t.set_length(5);
+	  t.set_height(2);
+	  t.volume();
+}
 }
