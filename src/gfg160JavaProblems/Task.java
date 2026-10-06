@@ -29,7 +29,7 @@ public static void main(String[]args) {
 	  Task t = new Task();
 	  t.set_height(10);
 	  t.set_length(5);
-	  t.set_height(2);
+	  t.set_width(2);
 	  t.volume();
 }
 }
